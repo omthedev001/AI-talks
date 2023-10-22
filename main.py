@@ -96,6 +96,7 @@ def whatsapp():
             duration = (route['features'][0]['properties']['summary']['duration'])
             duration = (duration / 60)
             duration = int(duration)
+            
 
             print(f'Duration----> {duration}')
             time.sleep(1)
